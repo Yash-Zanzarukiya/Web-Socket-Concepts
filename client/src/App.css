@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 80px auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Operator Mono";
+}
+
+.message-box {
+  margin-top: 25px;
+  padding: 20px;
+  border: 2px solid #646cffaa;
+}
+
+.message {
+  width: full;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 4px;
+  margin-top: 10px;
+  border-bottom: 1px solid orange;
+}
+.message button {
+  font-size: small;
+  margin-left: 6px;
+}
+.delete-button:hover {
+  filter: drop-shadow(0 0 1.5em #ff0000aa);
+}
+
+.buttons{
+  margin-bottom: 3px;
+}
+
+.logo {
+  height: 4em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+button {
+  font-size: large;
+}
+button:hover {
+  filter: drop-shadow(0 0 1em #646cffaa);
+}
+h1 {
+  font-family: "Wellfleet";
+}
+input {
+  font-size: large;
+  font-family: "Operator Mono";
+}
+input:focus {
+  border-color: #646cffaa;
+  outline: #646cffaa;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
